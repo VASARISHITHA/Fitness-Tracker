@@ -49,18 +49,18 @@ npm install react-router-dom axios react-chartjs-2
 
 ### 3.set up environment variables
 create .env file inside the backend directory and add:
-    MONGO_URI=your_mongodb_connection_string
-    PORT=port_no
-    JWT_SECRET=your_jwt_secret
-    GMAIL_USER=your_gmail_address
+   <span> MONGO_URI=your_mongodb_connection_string<span>
+   <span> PORT=port_no<span>
+   <span>JWT_SECRET=your_jwt_secret<span>
+   <p>GMAIL_USER=your_gmail_address<p>
     GMAIL_PASS=your_gmail_app_password
 
 ### 4.start the backend server
-cd backend
+cd backend<br>
 npm start
 
 ### 5.start the frontend
-cd frontend
+cd frontend<br>
 npm start
 
 ### 6.visit the application
