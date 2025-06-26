@@ -48,12 +48,12 @@ cd frontend
 npm install react-router-dom axios react-chartjs-2
 
 ### 3.set up environment variables
-create .env file inside the backend directory and add:
+create .env file inside the backend directory and add:<br>
    <span> MONGO_URI=your_mongodb_connection_string<span>
    <span> PORT=port_no<span>
    <span>JWT_SECRET=your_jwt_secret<span>
-   <p>GMAIL_USER=your_gmail_address<p>
-    GMAIL_PASS=your_gmail_app_password
+   <span>GMAIL_USER=your_gmail_address<span>
+   <span> GMAIL_PASS=your_gmail_app_password<span>
 
 ### 4.start the backend server
 cd backend<br>
