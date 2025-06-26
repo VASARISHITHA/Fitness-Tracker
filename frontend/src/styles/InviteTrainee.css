@@ -1,0 +1,56 @@
+.invite-container {
+  max-width: 400px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.invite-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #4871ae;
+}
+
+.invite-container input,
+.invite-container select {
+  width: 94%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.2s ease-in-out;
+}
+.invite-container input{
+  width:86%;
+}
+.invite-container input:focus,
+.invite-container select:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.invite-container button {
+  width: 40%;
+  background-color: #4b469e;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 31%;
+  transition: background-color 0.2s ease;
+}
+
+.invite-container button:hover {
+  background-color: #4338ca;
+}
+
+  

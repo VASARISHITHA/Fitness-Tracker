@@ -1,0 +1,89 @@
+/* TrainerProgress.css */
+
+.trainer-container {
+    margin-top: -0.8rem;
+    margin-left: -0.6rem;
+    background-color: #f0f2f5;
+    padding:2rem;
+    width:101.7%;
+    height:100vh;
+    box-sizing: border-box;
+    font-size: larger;
+  }
+  
+  .trainer-box {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trainer-heading {
+    margin-top:2%;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #0074cc;
+    margin-bottom: 1.5rem;
+  }
+  
+  .trainer-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.6rem;
+    margin-bottom: 2rem;
+    margin-left: 4.2%;
+    margin-top: 1%;
+  }
+  
+  .trainer-form input,
+  .trainer-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    height:20px;
+  }
+  .trainer-form select{
+    height:42px;
+  }
+  .trainer-form button {
+    grid-column: 1 / -1;
+    padding: 12px;
+    background-color: #1891ec;
+    color: white;
+    font-weight: bold;
+    width:30%;
+    font-size:18px;
+    margin-left: 35%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trainer-form button:hover {
+    background-color: #005fa3;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #535252;
+    font-style: italic;
+    margin-top: 2rem;
+    font-size: 24px;
+  }
+  .chart-wrapper {
+    width: 1000px;  /* Adjust this value for medium size */
+    height: 300px;
+    /* border:2px solid red; */
+    margin-left: 25%; /* Optional: sets vertical size */
+  }

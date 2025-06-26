@@ -1,0 +1,33 @@
+/* Container padding and background */
+.progress-container {
+    padding: 2rem;
+    background-color: #f3f4f6; /* light gray */
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Grid for charts */
+  .chart-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .chart-card h3{
+    color:rgba(93, 66, 228, 0.916);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  @media (min-width: 768px) {
+    .chart-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Chart card styling */
+  .chart-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  }  

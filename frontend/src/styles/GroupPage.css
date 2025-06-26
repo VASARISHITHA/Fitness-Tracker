@@ -1,0 +1,30 @@
+.container{
+    height:100vh;
+    width:100%;
+    /* border:2px solid red; */
+}
+.container h2{
+    text-align: center;
+    color:rgb(113, 43, 226);
+    font-size: 24px;
+    font-weight: bold;
+}
+.button-container{
+    display:flex;
+    justify-content: space-evenly;
+    width:60%;
+    margin-left: 21%;
+    margin-top: 3%;
+    height:6%;
+}
+.button-container button{
+    color:white;
+    background-color: rgb(65, 65, 239);
+    width:20%;
+    border-radius: 8px;
+    border:none;
+    font-size: 1em;
+}
+.button-container button:hover {
+    background-color: rgb(47, 173, 144);
+}

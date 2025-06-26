@@ -1,0 +1,29 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    height:50px;
+  }
+  .navbar h2{
+    color:white;
+  }
+  .navbar button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .navbar button:hover {
+    background-color: #444;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+  

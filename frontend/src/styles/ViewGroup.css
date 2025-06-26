@@ -1,0 +1,92 @@
+/* ViewGroup.css */
+
+.view-group-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .view-group-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4a3fa3;
+  }
+  
+  .group-list {
+    margin-bottom: 25px;
+  }
+  
+  .group-list h3 {
+    font-size: 1.2rem;
+    color: #513e7d;
+    margin-bottom: 10px;
+  }
+  
+  .group-list ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+  }
+  
+  .group-list li {
+    margin-bottom: 10px;
+  }
+  
+  .group-list button {
+    background-color: #3fa394;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    gap:0.8rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .group-list button:hover {
+    background-color: #372f84;
+  }
+  
+  .group-details {
+    margin-top: 30px;
+    background: #f8f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  }
+  
+  .group-details h3 {
+    color: #4a3fa3;
+    margin-bottom: 15px;
+  }
+  
+  .group-details h4 {
+    color: #656262;
+    margin-bottom: 10px;
+  }
+  
+  .group-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .group-details li {
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .group-list ul {
+      flex-direction: column;
+    }
+  
+    .group-list button {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  

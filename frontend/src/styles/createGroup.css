@@ -1,0 +1,75 @@
+.create-group-container {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    margin: 32px  auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-group-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5c27fe;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Input field styling */
+  .create-group-container input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .create-group-container input[type="text"]:focus {
+    border-color: #5c27fe;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .create-group-container button {
+    width: 50%;
+    padding: 12px;
+    background-color: #35aef0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-group-container button:hover {
+    background-color: #4320c7;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .create-group-container {
+      padding: 20px;
+    }
+  
+    .create-group-container h2 {
+      font-size: 24px;
+    }
+  }
+  
